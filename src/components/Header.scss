@@ -1,0 +1,30 @@
+.header-container {
+  position: absolute;
+  top: 1.5em;
+  width: 100%;
+  padding: 2em;
+  color: rgb(204, 204, 204);
+  background-color: rgba(19, 19, 19, 0.689);
+  font-family: "Game of Thrones", sans-serif;
+  display: flex;
+
+  .header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h2,
+    h3 {
+      margin: 0;
+      font-weight: 500;
+    }
+
+    h2 {
+      color: rgba(255, 212, 93, 0.723);
+    }
+
+    h3 {
+      color: rgba(255, 248, 227, 0.723);
+    }
+  }
+}
