@@ -1,0 +1,21 @@
+.scoreboard {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .scoreboard {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .scoreboard {
+    flex-direction: column;
+    align-items: center;
+  }
+}
