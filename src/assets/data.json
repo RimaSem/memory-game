@@ -1,0 +1,102 @@
+[
+    {
+        "name" : "House Arryn",
+        "src" : "./cards/Arryn.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Baratheon",
+        "src" : "./cards/Baratheon.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Bolton",
+        "src" : "./cards/Bolton.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Clegane",
+        "src" : "./cards/Clegane.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "Dothraki",
+        "src" : "./cards/Dothraki.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Frey",
+        "src" : "./cards/Frey.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Glover",
+        "src" : "./cards/Glover.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Greyjoy",
+        "src" : "./cards/Greyjoy.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Karstark",
+        "src" : "./cards/Karstark.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Lannister",
+        "src" : "./cards/Lannister.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Manderly",
+        "src" : "./cards/Manderly.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Martell",
+        "src" : "./cards/Martell.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Mormont",
+        "src" : "./cards/Mormont.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "Nightswatch",
+        "src" : "./cards/Nightswatch.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Seaworth",
+        "src" : "./cards/Seaworth.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Selmy",
+        "src" : "./cards/Selmy.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Stark",
+        "src" : "./cards/Stark.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Targaryen",
+        "src" : "./cards/Targaryen.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Tully",
+        "src" : "./cards/Tully.jpg",
+        "isClicked" : "false"
+    },
+    {
+        "name" : "House Tyrell",
+        "src" : "./cards/Tyrell.jpg",
+        "isClicked" : "false"
+    }
+]

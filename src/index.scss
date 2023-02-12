@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+
+  #root {
+    min-height: 100%;
+    background-color: rgb(57, 57, 57);
+    background-image: url(./assets/img/fantasy_map3.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+
+    .App {
+    }
+  }
+}
