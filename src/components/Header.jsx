@@ -1,4 +1,5 @@
 import React from "react";
+import Scoreboard from "./Scoreboard";
 
 function Header() {
   return (
@@ -7,6 +8,7 @@ function Header() {
         <h2>Game of Thrones</h2>
         <h3>Memory Game</h3>
       </div>
+      <Scoreboard />
     </div>
   );
 }
