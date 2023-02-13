@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 
-function Scoreboard() {
+function Scoreboard({ currentScore, bestScore }) {
   return (
     <div className="scoreboard">
       <div className="current-score">
-        Current score: <span>0</span>
+        Current score: <span>{currentScore}</span>
       </div>
       <div className="best-score">
-        Best score: <span>0</span>
+        Best score: <span>{bestScore}</span>
       </div>
     </div>
   );

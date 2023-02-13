@@ -1,13 +1,16 @@
 @import "./Scoreboard";
 
 .header-container {
+  z-index: 1;
   width: 100%;
   padding: 2em;
   color: rgb(204, 204, 204);
-  background-color: rgba(19, 19, 19, 0.689);
+  background-color: rgba(19, 19, 19, 0.918);
   font-family: "Game of Thrones", sans-serif;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: -1px;
 
   .header-title {
     display: flex;
@@ -35,12 +38,14 @@
     background-color: rgba(19, 19, 19, 0.918);
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    position: sticky;
-    top: -1px;
+    padding: 1em;
 
     .header-title {
       margin-bottom: 1.2em;
+      text-align: center;
+      padding-bottom: 1em;
+      border-bottom: 1px solid gray;
+      font-size: 0.7em;
     }
   }
 }

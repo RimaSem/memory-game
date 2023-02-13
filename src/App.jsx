@@ -1,15 +1,28 @@
 import React, { useState } from "react";
-import data from "./assets/data.json";
 import Header from "./components/Header";
 import AllCards from "./components/AllCards";
 
 function App() {
-  const [cards, setCards] = useState(data);
+  const [currentScore, setCurrentScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+
+  function updateCurrentScore(newScore) {
+    setCurrentScore(newScore);
+  }
+
+  function updateBestScore(newScore) {
+    setBestScore(newScore);
+  }
 
   return (
     <div className="App">
-      <Header />
-      <AllCards data={cards} />
+      <Header currentScore={currentScore} bestScore={bestScore} />
+      <AllCards
+        currentScore={currentScore}
+        updateCurrentScore={updateCurrentScore}
+        bestScore={bestScore}
+        updateBestScore={updateBestScore}
+      />
     </div>
   );
 }
