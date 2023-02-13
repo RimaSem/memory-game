@@ -1,12 +1,15 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import data from "./assets/data.json";
 import Header from "./components/Header";
+import AllCards from "./components/AllCards";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [cards, setCards] = useState(data);
 
   return (
     <div className="App">
       <Header />
+      <AllCards data={cards} />
     </div>
   );
 }

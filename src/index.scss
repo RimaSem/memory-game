@@ -1,4 +1,5 @@
 @import "./components/Header";
+@import "./components/AllCards";
 @font-face {
   font-family: "Game of Thrones";
   src: url(./assets/GOT_font.ttf) format("truetype");
@@ -15,12 +16,27 @@ body {
 
   #root {
     min-height: 100%;
-    background-color: rgb(57, 57, 57);
-    background-image: url(./assets/img/fantasy_map3.jpg);
-    background-size: cover;
-    background-blend-mode: overlay;
 
     .App {
+      background-color: rgb(35, 35, 35);
+      background-image: url(./assets/img/detailed_map2.jpg);
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-position: center;
+      padding-top: 1.5em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    #root {
+      .App {
+        background-position: none;
+      }
     }
   }
 }
