@@ -17,3 +17,5 @@ To play the game, simply click on one of the cards that you have not clicked on 
 
 ## Credits 
 The card images are from [SlainSoulAKAWolfang](https://br.pinterest.com/SlainsoulAKAWolfang/game-of-thrones-all-houses/)
+
+![memory_game](https://user-images.githubusercontent.com/98835134/218689846-f3b17596-84d6-4b61-baf1-15c538eb88f5.png)
