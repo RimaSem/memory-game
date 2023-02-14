@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import InfoModal from "./components/InfoModal";
 import Header from "./components/Header";
 import AllCards from "./components/AllCards";
 
 function App() {
+  const [startGame, setStartGame] = useState(false);
   const [currentScore, setCurrentScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
+
+  function start() {
+    setStartGame(true);
+  }
 
   function updateCurrentScore(newScore) {
     setCurrentScore(newScore);
@@ -17,12 +23,17 @@ function App() {
   return (
     <div className="App">
       <Header currentScore={currentScore} bestScore={bestScore} />
-      <AllCards
-        currentScore={currentScore}
-        updateCurrentScore={updateCurrentScore}
-        bestScore={bestScore}
-        updateBestScore={updateBestScore}
-      />
+
+      {!startGame ? (
+        <InfoModal start={start} />
+      ) : (
+        <AllCards
+          currentScore={currentScore}
+          updateCurrentScore={updateCurrentScore}
+          bestScore={bestScore}
+          updateBestScore={updateBestScore}
+        />
+      )}
     </div>
   );
 }
