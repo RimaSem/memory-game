@@ -4,9 +4,12 @@ import Header from "./components/Header";
 import AllCards from "./components/AllCards";
 
 function App() {
-  const [startGame, setStartGame] = useState(false);
+  const savedScore = localStorage.getItem("bestScore")
+    ? localStorage.getItem("bestScore")
+    : 0;
+  const [startGame, setStartGame] = useState(true);
   const [currentScore, setCurrentScore] = useState(0);
-  const [bestScore, setBestScore] = useState(0);
+  const [bestScore, setBestScore] = useState(savedScore);
 
   function start() {
     setStartGame(true);

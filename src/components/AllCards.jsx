@@ -17,6 +17,7 @@ function AllCards({
 
     if (card.isClicked === true) {
       if (currentScore > bestScore) {
+        localStorage.setItem("bestScore", +currentScore);
         updateBestScore(currentScore);
       }
       newCards = cards.map((card) => {
