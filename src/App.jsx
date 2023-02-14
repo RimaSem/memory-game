@@ -7,7 +7,7 @@ function App() {
   const savedScore = localStorage.getItem("bestScore")
     ? localStorage.getItem("bestScore")
     : 0;
-  const [startGame, setStartGame] = useState(true);
+  const [startGame, setStartGame] = useState(false);
   const [currentScore, setCurrentScore] = useState(0);
   const [bestScore, setBestScore] = useState(savedScore);
 
