@@ -13,7 +13,7 @@ A GoT-themed memory game where you have to choose a card and memorize it. The go
 - localStorage
 
 ## Instructions
-To play the game, simply click on one of the cards that you have not clicked on previously. If you chose a card that you have not clicked on previously your score will increase. If you click on a card that you have previously clicked on your score will be reset. The objective of the game is to click on all 20 unique cards.
+To play the game, simply click on one of the cards that you have not clicked on previously. If you choose a card that you have not clicked on before, your score will increase. If you click on a card that you have already chosen before, your score will be reset. The objective of the game is to click on all 20 unique cards without clicking on the same card twice.
 
 ## Credits 
 The card images are from [SlainSoulAKAWolfang](https://br.pinterest.com/SlainsoulAKAWolfang/game-of-thrones-all-houses/)
