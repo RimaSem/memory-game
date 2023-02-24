@@ -6,10 +6,10 @@ function InfoModal({ start }) {
       <div className="modal">
         <h3 className="modal-title">How to play</h3>
         <p className="modal-text">
-          The aim of the game is to click on cards without repeating the same
-          card. The cards are shuffled every time they are clicked. If you click
-          the same card two times, your score will reset. Let's test your
-          memory!
+          The goal of the game is to click on all 20 unique cards without
+          choosing the same card twice. The cards are shuffled every time they
+          are clicked. If you choose the same card twice, your score will be
+          reset. Let's test your memory!
         </p>
         <button className="start-btn" onClick={start}>
           Start the game
